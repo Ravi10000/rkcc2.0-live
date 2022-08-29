@@ -21,7 +21,7 @@ const Header = () => {
             </div>
             <p className="subtitle">AC & Refrigerator Solutions</p>
           </div>
-          <img src="./hero.png" alt="hero" />
+          <img src="./hero.png" alt="hero" loading="lazy"/>
         </div>
         <div className="contact-btn">
           <CustomButton handleClick={() => (modalOpen ? close() : open())}>
