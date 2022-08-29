@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .header-text {
+            display: inline-block;
+            font-family: 'Josefin sans';
+            margin-top: 50px;
+
+            .title {
+                position: relative;
+
+                h1 {
+                    font-weight: bold;
+                    background: linear-gradient(90.69deg, #457EFF 0.78%, #427AFA 102.34%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                }
+
+                .cut {
+                    position: absolute;
+                    width: 100%;
+                    background-color: #fff;
+                    height: 3px;
+                    bottom: 15px;
+                }
+
+            }
+
+            .subtitle {
+                z-index: 1000;
+                font-weight: 400;
+                font-size: 1.2rem;
+                line-height: 16px;
+                /* identical to box height */
+
+                letter-spacing: 1.5px;
+
+                color: #7C8AA9;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+    .msg{
+        width: 80%;
+        opacity: .5;
+        font-weight: 700;
+        margin-top: 50px;
+        height: 100px;
+        display: grid;
+        text-align: center;
+        font-size: 1.5rem;
+        place-items: center;
+    }
+}
+
+@media (min-width: 500px) {
+    .header {
+        position: relative;
+
+        .container {
+            // display: flex;
+            // align-items: center;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+
+            img {
+                padding-top: 2px;
+                width: 50%;
+            }
+        }
+
+        .contact-btn {
+            position: absolute;
+            right: 20%;
+            top: 50%;
+        }
+    }
+}

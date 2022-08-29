@@ -1,0 +1,33 @@
+.homepage{
+    .question{
+        margin-top: 50px;
+        margin-left: 50px;
+        font-family: 'Josefin sans';
+        font-weight: 700;
+        color: #427AFA;
+        font-size: 1.5rem;
+    }
+    .answer{
+        margin-top: 10px;
+        font-size: 1.1rem;
+        margin-left: 60px;
+        margin-bottom: 100px;
+        font-family: 'Poppins';
+        color: #7C8AA9;
+    }
+    .content-container{
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 800px){
+    .homepage{
+        .subheading-container{
+            margin-left: 20%;
+        }
+
+        .question, .answer{
+            margin-left: 25%;
+        }
+    }
+}

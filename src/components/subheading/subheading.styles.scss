@@ -1,0 +1,22 @@
+.sub-heading{
+    font-family: 'Josefin sans';
+    display: inline-block;
+    position: relative;
+    h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: inline-block;
+        z-index: 1000;
+        color: black
+    }
+    .highlight{
+        z-index: -1;
+        border-radius: 1px;
+        position: absolute;
+        left: -5%;
+        bottom: 5px;
+        width: 110%;
+        height: 7px;
+        background: rgba(69, 126, 255, 0.49);
+    }
+}

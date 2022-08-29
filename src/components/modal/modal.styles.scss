@@ -1,0 +1,112 @@
+.modal {
+    padding: 20px;
+    width: clamp(50%, 500px, 90%);
+    height: min(50%, 300px);
+    // margin: auto;
+    padding: 0 2rem;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: 'Josefin Sans';
+
+    h2 {
+        margin: 20px 0;
+        font-size: 2rem;
+    }
+
+    .contacts {
+        .contact {
+            // height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            padding: 10px 10px;
+            border: 0.641791px solid #E0E0E0;
+            box-shadow: 0px 1.28358px 2.56716px rgba(0, 0, 0, 0.25);
+            border-radius: 50px;
+            cursor: pointer;
+
+            img {
+                width: 30px;
+            }
+
+            p {
+                font-weight: 700;
+                margin-left: 10px;
+            }
+        }
+
+
+        .message,
+        .call,
+        .whatsapp {
+            display: flex;
+            // height: 70px;
+            justify-content: space-around;
+        }
+
+        .top {
+            display: flex;
+            margin-bottom: 20px;
+
+            .call,
+            .message {
+                margin-right: 10px;
+            }
+
+            .call {
+                p {
+                    background: linear-gradient(92.9deg, #4A65FF 8.4%, #04BBFF 92.55%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                }
+            }
+
+            .message {
+                p {
+                    background: linear-gradient(92.9deg, #4479F0 8.4%, #75B5FF 92.55%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                }
+            }
+        }
+
+        .bottom {
+            .whatsapp {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 40px;
+
+                p {
+                    background: linear-gradient(92.9deg, #00B950 8.4%, #00EB78 92.55%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                }
+            }
+        }
+
+    }
+
+}
+@media (min-width: 380px) {
+.modal{
+    height: 350px;
+    .contacts{
+        .contact{
+            font-size: 1.2rem;
+            padding: 15px 20px;
+
+            img{
+                width: 40px;
+            }
+        }
+    }
+}
+    
+}
