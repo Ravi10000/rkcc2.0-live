@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/rkcc2.0-live/static/css/main.f71e1e32.css",
+    "main.js": "/github.io/rkcc2.0-live/static/js/main.6597006e.js",
+    "index.html": "/github.io/rkcc2.0-live/index.html",
+    "main.f71e1e32.css.map": "/github.io/rkcc2.0-live/static/css/main.f71e1e32.css.map",
+    "main.6597006e.js.map": "/github.io/rkcc2.0-live/static/js/main.6597006e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f71e1e32.css",
+    "static/js/main.6597006e.js"
+  ]
+}
